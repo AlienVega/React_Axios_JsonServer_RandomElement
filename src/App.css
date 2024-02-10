@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.courseMainDiv {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  padding: 30px;
+}
+.cardPrice {
+  font-style: italic;
+  font-size: 16px;
+  color: red;
+  text-align: end;
+}
+.cardDeleteBtn {
+  width: 100px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(144, 60, 144);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.refreshDiv {
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.prevNext {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  color: brown;
+  cursor: pointer;
+}
+.courseTitle {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cardButton {
+  width: 200px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: purple;
+  color: wheat;
+  font-size: 18px;
 }

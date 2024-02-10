@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "content": "muhteşem angular kursu",
+      "title": "ANGULAR",
+      "price": 69
+    },
+    {
+      "id": 2,
+      "content": "muhteşem bootstrap kursu",
+      "title": "BOOTSTRAP",
+      "price": 169
+    },
+    {
+      "id": 3,
+      "content": "muhteşem c programlama kursu",
+      "title": "C PROGRAMLAMA",
+      "price": 269
+    },
+    {
+      "id": 4,
+      "content": "muhteşem front end kursu",
+      "title": "FRONT END",
+      "price": 369
+    },
+    {
+      "id": 5,
+      "content": "muhteşem html kursu",
+      "title": "HTML KURSU",
+      "price": 39
+    }
+  ]
+}
